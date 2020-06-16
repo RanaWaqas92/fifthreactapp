@@ -9,7 +9,7 @@ let [Redsr,SetRedsr] = useReducer(AssignRedsr,0)
         <div>
             <label>Counter With Reducer OnChild = {Redsr}</label>
             <br />            
-            <input type="submit" onClick={() => {Counter[1](++Counter[0])}} value="Counter With Counter"  />
+            <input type="submit" onClick={() => {Counter[1](++Counter[0])}} value="Counter With Context"  />
             <br />            
             <button onClick={() => {SetRedsr('Inc')}}>+</button>
             <button onClick={() => {SetRedsr('Dec')}}>-</button>
